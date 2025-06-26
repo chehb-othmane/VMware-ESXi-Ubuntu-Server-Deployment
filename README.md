@@ -21,25 +21,6 @@ https://drive.google.com/file/d/1h5Ol_RxB9HMJbpEOhpNxL3YKRLYQ6EVt/view?usp=drive
 - [Rapport complet du projet (PDF)](Virtual.pdf) - Documentation détaillée avec captures d'écran et explications étape par étape
 - [Guide de dépannage](troubleshooting_guide.md) - Solutions aux problèmes courants rencontrés
 
-## Structure du projet
-
-```
-.
-├── README.md                 # Ce fichier
-├── Virtual.pdf               # Rapport détaillé du projet
-├── scripts/                  # Scripts d'automatisation
-│   ├── esxi_network.sh       # Configuration réseau pour ESXi
-│   ├── ubuntu_autoinstall.yaml  # Configuration d'installation automatisée Ubuntu
-│   └── performance_monitor.sh   # Script de surveillance des performances
-├── config/                   # Fichiers de configuration
-│   ├── network_config.yaml   # Configuration réseau pour Ubuntu
-│   └── vm_specs.md           # Spécifications des VMs
-├── screenshots/              # Captures d'écran du projet
-│   ├── esxi_installation/    # Captures d'écran d'installation ESXi
-│   └── ubuntu_config/        # Captures d'écran de configuration Ubuntu
-└── troubleshooting_guide.md  # Guide de dépannage
-```
-
 # Guide d'installation ESXi avec VM Ubuntu
 
 Ce guide détaillé vous accompagne à travers l'ensemble du processus d'installation et de configuration d'un environnement de virtualisation avec VMware ESXi et Ubuntu Server. Il combine les instructions pas à pas avec une documentation visuelle de chaque étape clé du processus.
